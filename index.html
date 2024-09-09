@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assignment</h1>
+        <div class="editor">
+            <button id="undo">↶ Undo</button>
+            <button id="redo">↷ Redo</button>
+            <div id="textArea" contenteditable="true">
+                <p id="textContent">Abhinav</p>
+            </div>
+            <div class="controls">
+                <select id="fontStyle">
+                    <option value="Arial">Arial</option>
+                    <option value="Courier">Courier</option>
+                    <option value="Georgia">Georgia</option>
+                </select>
+                <input type="number" id="fontSize" value="16">
+                <button id="boldText">B</button>
+                <button id="italicText">I</button>
+                <button id="underlineText">U</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
