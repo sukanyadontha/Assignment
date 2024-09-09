@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+}
+.editor {
+    margin-top: 20px;
+    position: relative;
+}
+#textArea {
+    border: 1px solid #000;
+    padding: 10px;
+    min-height: 100px;
+}
+.controls {
+    margin-top: 10px;
+}
+button {
+    margin-right: 5px;
+    padding: 5px;
+}
+select, input {
+    margin-right: 5px;
+}
